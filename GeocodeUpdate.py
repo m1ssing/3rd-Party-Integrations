@@ -21,7 +21,7 @@ def RebuildLocators():
 
 def AssetMgmt():
         
-    arcpy.SignInToPortal("https://gis.pearlandtx.gov/arcgis/", "portaladmin", "Horizon81")
+    arcpy.SignInToPortal("https://gis.pearlandtx.gov/arcgis/", "", "")
     locPath = "\\\\GISAPP\\Workspace\\MyArcGIS\\Geocoders\\AM_Composite.loc"
     sddraftFile = "\\\\GISAPP\\Workspace\\Horizon\\Scripts\\GeocodeUpdate.sddraft"
     sdFile = "\\\\GISAPP\\Workspace\\Horizon\\Scripts\\GeocodeUpdate.sd"
